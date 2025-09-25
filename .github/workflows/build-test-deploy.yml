@@ -9,7 +9,7 @@ jobs:
       - run: echo "$(cat hello_world.txt)"
 
       - name: Ferris say Hello
-        uses: ./  # points to your local Rust action directory
+        uses: vm-mscs-mmxxiv/hello-ferris@v0.0.1
 
 
       - name: use node.js
