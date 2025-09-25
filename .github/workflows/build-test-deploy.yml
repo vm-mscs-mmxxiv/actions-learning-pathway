@@ -9,7 +9,7 @@ jobs:
       - run: echo "$(cat hello_world.txt)"
 
       - name: Ferris say Hello
-        uses: vm-mscs-mmxxiv/hello-ferris@v0.0.1
+        uses: vm-mscs-mmxxiv/hello-ferris@v0.0.2
 
 
       - name: use node.js
