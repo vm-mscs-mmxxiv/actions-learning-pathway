@@ -1,9 +1,12 @@
 name: hello-world
 on: push
 jobs: 
-  hello-world-job:
+  hello-world-from-file-job:
     runs-on: ubuntu-latest
     steps: 
       - name: Check out repository code
         uses: actions/checkout@v5
       - run: echo "$(cat hello_world.txt)"
+
+      - name: Ferris say Hello
+        uses: vm-mscs-mmxxiv/hello-ferris@v0.0.1
